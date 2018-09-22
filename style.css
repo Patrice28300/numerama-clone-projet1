@@ -1,0 +1,685 @@
+
+/* ------------------ Fonts declaration -------------- */
+
+@font-face{
+    font-family:"futuraLT";
+    src : url("./font/futura-lt/FuturaLT.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:"futuraLT-bold";
+    src : url("./font/futura-lt/FuturaLT-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* TopBar start */
+
+.red-c {
+    background-color: #e9573f;
+  }
+  
+  .red-f {
+    background-color: #E03134;
+  }
+  
+  .logoSmall {
+    width: 55px;
+    height:55px
+  
+  }
+
+  .logo {
+    width: 190px;
+    height:55px
+  
+  }
+  
+  .font-size {
+    font-size: 0.7em;
+  
+  }
+  
+  .row-topbar {
+    height: 100%;
+    font-size : 1.4em;
+  
+  }
+
+  .dropdown-menu{
+      margin-top:15px;
+  }
+  
+  #dis {
+    font-size: 0.8em;
+  }
+  
+  .color-menue {
+    background-color: #464646;
+  }
+
+  #frandroid img{
+      height: 40px;
+      width: 40px;
+  }
+  
+  #frandroid:hover {
+    background-color: green;
+  }
+  
+  #humanoid img {
+    height: 40px;
+    width: 40px;
+  }
+  #humanoid:hover {
+    background-color: blue;
+  }
+  
+  #facebook:hover {
+    background-color: #3b5998;
+  }
+  
+  #twitter:hover {
+    background-color: #0894F5;
+  }
+
+  #flipboard img{
+      width:13px;
+      height: 13px
+  }
+  #flipboard:hover {
+    background-color: #E03134;
+  }
+  
+  #youtube:hover {
+    background-color: #E03134;
+  }
+  
+  #rss:hover {
+    background-color: #FF972B;
+  }
+
+.fa-user-circle, .fa-search{
+    margin-top:10px;
+}
+
+  /* Topbar end */
+  
+
+/* ----------------------- CSS content BEGIN ----------------------------------  */
+
+
+/* --------------- Global rules ------------------ */
+body {
+    font-family: 'futuraLT','Times New Roman', Times, serif;
+    background-color: #EEEEEE;
+}
+#wrap-all{
+    width:1200px;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+}
+
+.main-container{
+    background-color: #EEEEEE;
+}
+
+img{
+    width: 100px;
+    height: 150px;
+}
+
+p{
+    font-family: "futuraLT", 'Times New Roman', Times, serif 
+}
+
+h1{
+    font-family: "futuraLT-bold",'Times New Roman', Times, serif;
+    color:#e9573f;
+}
+
+h2{
+    font-family: "futuraLT-bold",'Times New Roman', Times, serif;
+    color:#e9573f;
+}
+
+a{
+    color:black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Règles bloc top , caché sur portable et tablette */w
+
+#main-new-top-left-container{
+    height:770px;
+}
+
+#main-new-1{
+    min-width: 100%;
+}
+#img-main-new-1{
+    width: 319px;
+    height:450px;
+}
+
+#title-main-new-1{
+    color : #e9573f;
+    width:750px;
+    text-transform: uppercase;
+    font-family: "futuraLT-bold",'Times New Roman', Times, serif;
+    padding: 11px 10px 10px 20px;
+    position: absolute;
+    margin-left: 150px;
+    top: 15px;
+    font-size:30px;
+    background-color: #fff;
+    border-bottom:10px solid #e9573f;
+}
+
+#main-new-2{
+    position: absolute;
+    top: 125px;
+    left : 365px
+
+}
+
+#img-main-new-2{
+    width: 550px;
+    height:300px;
+}
+
+#title-main-new-2{
+    width:400px;
+    top: 250px;
+    left:50px;
+    font-family: "futuraLT-bold",'Times New Roman', Times, serif;
+    padding: 11px 10px 10px 20px;
+    position: absolute;
+    font-size:20px;
+    background-color: #fff;
+    border-bottom:10px solid #e9573f;
+}
+
+#main-new-top-right-container{
+    height:500px
+}
+
+#main-new-3{
+    position: relative;
+
+}
+
+#img-main-new-3{
+    width: 100%;
+    height:150px;
+}
+
+#title-main-new-3{
+    margin: 10px 0;
+    font-size: 17px;
+    font-family: "futuraLT-bold",'Times New Roman', Times, serif
+}
+
+#main-new-4{
+    margin:15px 0;
+    position: relative;
+
+}
+
+#img-main-new-4{
+    width: 100%;
+    height:150px;
+}
+
+#title-main-new-4{
+    margin: 10px 0;
+    font-size: 17px;
+    font-family: "futuraLT-bold",'Times New Roman', Times, serif
+}
+
+#art-bottom-container{
+    position: relative;
+    margin-top:50px;
+    height: 150px;
+}
+
+#img-main-new-5{
+    width: 680px;
+    height:130px;
+}
+
+#title-main-new-5{
+    top:40px;
+    font-family: "futuraLT-bold",'Times New Roman', Times, serif;
+    padding: 11px 10px 10px 20px;
+    position: absolute;
+    font-size:1.1em;
+    background-color: #fff;
+    border-bottom:10px solid #e9573f;
+}
+
+/*  ----------------- Règles main bloc -------------------- */
+
+/* Rules Weekly brief : Hidden on phone & Tablet  */
+
+.main-content{
+    padding-top:25px;
+}
+
+#weekly-brief{
+    display: inline-block;
+    font-family: 'futuraLT-bold','Times New Roman', Times, serif;
+    font-size: 0.7em;
+    width:250px;
+}
+
+#weekly-brief h2{
+    font-size:2em;
+    margin-top: 15px
+}
+
+#weekly-brief ol li{
+    margin-top:10px;
+    font-size: 1.5em;
+}
+
+#adspace{
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Rules last-art */
+
+#last-art-container{
+    display: inline-block;
+    width:95%;
+    margin:0 auto;
+}
+
+.last-art{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#grid-icon, #list-icon{
+    border:none;
+    background-color: #FFF;
+    margin-left:15px;
+}
+#grid-icon-img, #list-icon-img{
+    height: 15px;
+    width: 15px;
+}
+#list-icon-img{
+    height: 20px;
+    width: 20px;
+}
+.art-img{
+    width: 100%;
+    height: 250px;
+    z-index: 100;
+}
+
+.art-infos h3{
+    margin-top: 15px;
+    font-size: 1.2em
+}
+
+@media screen and (min-width:583px) and (max-width: 992px)  {
+
+    .last-art{
+        margin-top:15px;
+    }
+    .art-infos h3 {
+    font-size: 1.2em;
+    }
+    .last-art{
+        height:200px;
+        align-items: flex-start;
+    }
+    .art-img{
+        width: 100%;
+        min-width:150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 582px) {
+
+    .last-art{
+        margin-top:10px;
+    }
+    .art-infos h3 {
+    font-size: 1em;
+    }
+    .last-art{
+        height:200px;
+        align-items: flex-start;
+    }
+    .art-img{
+        width: 100%;
+        min-width:100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .art-infos{
+        font-size:0.9em;
+    }
+    .tag-last-art{
+        display:none;
+    }
+}
+
+
+.tag-last-art{
+    font-family: "futuraLT-bold", 'Times New Roman', Times, serif;
+    font-size:0.9em;
+    background-color: #EEEEEE;
+    color: #FFF;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.tag-last-art:hover{
+    background-color: #e9573f;
+}
+
+
+
+.date{
+    font-size:0.8em;
+    margin-top : 5px
+}
+
+/* Rules categories */
+
+.right-icon{
+    width:10%;
+    height:5%
+}
+
+.more-art{
+    font-family: "futuraLT-bold",'Times New Roman', Times, serif;
+    color: #e9573f;
+    padding-top:100px;
+}
+
+
+.tech-art{
+    display: inline-block;
+}
+
+.tech-art img{
+    background-color: #FFF;
+}
+
+.art-categories-container{
+    margin-top:25px;
+}
+
+h5{
+    font-size: 1.1em;
+}
+.tag{
+    font-family: "futuraLT-bold", 'Times New Roman', Times, serif;
+    font-size:0.9em;
+    background: #e2e2e2;
+    margin: 15px;
+    padding: 10px;
+    height:40px;
+}
+.tag span {
+    background-color: #afafaf;
+    margin: 0 2%;
+    border-radius: 3px;
+    padding: 0px 25px;
+    color: #FFF;
+    transition-property: "background-color";
+    transition-duration: 0.5s;
+}
+
+.tag span:hover{
+    background-color:#e9573f;
+}
+
+.pol-art{
+    display: inline-block;
+}
+
+
+
+.title-container{
+    padding-top:50px;
+}
+/* -------------------- CSS FORM ---------------------- */
+
+#form-wrap{
+    background-color: #fff;
+    padding : 15px;
+    margin-bottom: 15px
+}
+
+.contact-title{
+    font-size: 6em;
+}
+
+label {
+    color:#e9573f;
+    font-size:1.2em;
+}
+
+.input-field{
+    margin-bottom: 25px;
+}
+
+.line-input{
+    height : 25px;
+    width:50%;
+    border-bottom: 1px solid #e9573f;
+    background-color: transparent;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    transition: all 0.5s;
+}
+
+.line-input:focus{
+    height: 50px;
+    outline:none;
+}
+
+#submit-button-container input{
+    border: none;
+    background-color: #e9573f;
+    color: #FFF;
+}
+
+#infolink{
+    text-decoration: none;
+    color: #e9573f
+}
+
+#legal-mentions-contact{
+    margin-top:20px;
+    font-size:0.7em;
+}
+
+/* --------------------- CSS PC ----------------  */
+
+#top-img{
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.noresize{
+    min-width: 100%;
+    min-height: 500px;
+}
+
+.pc-main-wrap{
+    padding-top: 525px;
+    margin-bottom: 25px;
+}
+
+/* ------- Left block ---------- */
+#ytVid{
+    width: 100%;
+}
+
+#intro-pc-selling h1{
+    margin-top:20px;
+}
+
+.custom-gray{
+    color:#444444;
+}
+
+.centered-title{
+    text-align: center;
+    font-size: 1em;
+    font-style: italic
+}
+
+.img-pc-selling{
+    min-height: 300px;
+    margin-bottom: 25px;
+
+}
+
+.black{
+    color:black;
+}
+
+#cart-icon{
+    width:30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.discover-pc{
+    background-image: linear-gradient(to right, #e9573f, #2D0A57);
+    color:#FFF;
+    font-size:1.2em;
+    transition: all;
+}
+
+.discover-pc:hover{
+    background-image:linear-gradient(to right, #6E1F4E, #2D0A57)
+}
+
+.accordion{
+    margin-top: 25px;
+}
+
+.btn-link{
+    color:black;
+    text-decoration:none;
+    text-decoration-line: none;
+}
+
+.btn-link:hover{
+    text-decoration: none;
+    text-decoration-line: none;
+    color:black;
+}
+
+
+/*  ----- right block --------- */
+
+.pc-config{
+    margin-bottom:25px;
+    background-color: #F7F7F7;
+    padding: 15px;
+}
+
+.price{
+    border:1px solid black;
+    margin-bottom:10px;
+    padding-left : 10px;
+    padding-right:10px;
+}
+
+/* ----------------------- CSS Content END ----------------------------------  */
+
+/* ----------------------  CSS footer BEGIN ---------------------------------- */
+
+/* css footer */
+
+#top-footer{
+    height:75px;
+    width: 100%;
+    background-color: #e9573f;
+    font-size: 0.9em;
+}
+
+#logo-numerama{
+    width: 180px;
+    height: 45px;
+}
+
+#top-footer-left{
+    margin-top: 18px;
+}
+
+#top-footer-right{
+    margin-top: 2.1em;
+    font-size: 0.9em;
+}
+
+#bottom-footer p{    
+    font-size: 0.8em;
+}
+
+#bottom-footer a{
+    color:black;
+}
+
+#bottom-footer-bis{
+    height:65px;
+    width: 100%;
+    background-color: #d34e39;
+    font-size: 1.0em;    
+}
+
+#bottom-footer-ter{
+    height:115px;
+    width: 100%;
+    background-color: #d34e39;
+    font-size: 1.0em;    
+}
+
+#urlHumanoid:hover
+{
+  color:#e9573f;
+  text-decoration:none;
+  
+}
+
+.deco-none:hover
+{
+  text-decoration:none;
+}
+
+   
+
+
+/* media queries */
+
+@media screen and (max-width: 992px){ 
+  #top-footer{
+  height:150px;}    
+} 
+
+
+/* ----------------------  CSS footer END ---------------------------------- */
+
